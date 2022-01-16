@@ -68,4 +68,6 @@ func main() {
 	fmt.Println("resp2 status:", resp2.Status)
 	//resp2, _ = http.Head("https://cmyd-10-132.getui.com")
 	fmt.Println("resp2 status:", resp2.Status)
+	resp2, _ = http.Head("https://fd.igetget.com")
+	fmt.Println("resp2 status:", resp2.Status)
 }
